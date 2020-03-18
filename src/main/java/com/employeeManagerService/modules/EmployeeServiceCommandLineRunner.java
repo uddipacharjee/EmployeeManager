@@ -20,8 +20,8 @@ public class EmployeeServiceCommandLineRunner implements CommandLineRunner {
 
     @Override
     public void run(String... args) throws Exception {
-        Employee employee=new Employee("rabbi","engineer","r@g","soa",new Date("2020/02/01"),"018776655");
-        employeeService.save(employee);
-        log.info("New employee is created: "+ employee);
+        //Employee employee=new Employee("rabbi","engineer","r@g","soa",new Date("2020/02/01"),"018776655");
+        //employeeService.save(employee);
+        //log.info("New employee is created: "+ employee);
     }
 }

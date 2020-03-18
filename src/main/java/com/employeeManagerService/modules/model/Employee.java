@@ -1,5 +1,7 @@
 package com.employeeManagerService.modules.model;
 
+import com.fasterxml.jackson.annotation.JsonFormat;
+
 import javax.persistence.*;
 import java.util.Date;
 
@@ -13,6 +15,7 @@ public class Employee {
     private String title;
     private String email;
     private String teamName;
+    @JsonFormat(pattern = "yyyy-MM-dd")
     private Date joinedDate;
     private String mobile;
 
